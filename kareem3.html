@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta chrset="utf-8">
+    <meta name="description" content="kareemahmed">
+    <title>kareem</title>
+    
+   <style>
+     p{color:black}
+     ol{color:rgb(6, 28, 153)}
+     ul{color:rgb(199, 1, 1)}
+     small{color:gray}
+     strong{color:black}
+     em{color:green}
+     h1{color:black}
+     h2{color:black}
+     dl{color:rgb(0, 0, 0)}
+     a{color:blue}
+     thead th {text-align:center;color:rgb(255, 255, 255);background:#333;padding:5px;}
+     tfoot td {font-weight:bold;text-align:center;color:#f00;background:#ddd;padding:5px;}
+     tbody td {text-align:center;padding:5px;background:#efefef;}
+    </style>
+    <style>
+      div
+      {
+         width:500px;
+         padding:10px;
+         background:#EFEFEF;
+         border:1px solid #ccc;
+         margin:10px 0;
+      }
+    </style>
+    <style>
+      blockquote
+      {
+        width:500px;
+        background:#efefef;
+        padding:10px;
+        margin:auto;
+      }
+      .test
+      {
+        color:black;
+        background:white;
+      }
+      fieldset {background:#EFEFEF;padding:10px;border:1px; solid:#ccc}
+
+      legend {background:#FFF;border:1px;padding:5px;solid:#ccc}
+    </style>
+  </head>
+  <body>
+    <form name="register">
+     <fieldset>
+       <legend>presonal informatoin</legend>
+      <label>username</label>
+      <input type="text" placeholder="type your name">
+      <br>
+      <label>password</label>
+      <input type="password" maxlength="10" placeholder="type your password">
+      <br>
+      <input type="checkbox">
+      <label>remember me </label>
+      <br>
+      <input type="submit" value="sign in">
+      <br>
+      <input type="reset">
+      <br>
+      <input type="file">
+      <br>
+      <input type="hidden">
+      <br>
+      <label>choose your browser</label>
+      <br>
+      <input type="radio" name="browser" value="chrom">google chrom<br>
+      <input type="radio" name="browser" value="firefos">firefos<br>
+      <input type="radio" name="browser" value="opera">opera
+      <br>
+      <label>choose your phone</label>
+      <br>
+      <input type="radio" name="mobile" value="iphone">iphone<br>
+      <input type="radio" name="mobile" value="samsuang">samsuang<br>
+      <input type="radio" name="mobile" value="realme">realme<br>
+      <select name="times" disabled size="3">
+        <option>now</option>
+        <option>tomorrow</option>
+        <option>after a week</option>
+      </select>
+      <select name="times" multiple >
+        <option>now</option>
+        <option>tomorrow</option>
+        <option>after a week</option>
+      </select>
+    </select>
+    <select name="times" >
+      <optgroup label="near time">
+        <option disabled value="3">now</option>
+       <option value="2">tomorrow</option>
+       <option value="1">after a week</option>
+      </optgroup>
+      <optgroup label="far time">
+       <option value="4">10year</option>
+       <option selected value="5">20year</option>
+       <option value="5">30year</option>
+      </optgroup>
+    </select>
+    </fieldset>
+    </form>
+    <br>
+    <fieldset>
+      <legend>kareemahmed textarea </legend>
+    <label>textarea</label><br>
+    <textarea rows="6" cols="60">kareem ahmed</textarea>
+    <textarea rows="6" cols="60" readonly>kareem ahmed</textarea>
+    </fieldset>
+    <br>
+    <table border="1" width="400" align="center">
+      <caption>this is computer language</caption>
+      <thead>
+      <tr>
+        <th>month</th>
+        <th>html</th>
+        <th>css</th>
+        <th>html5</th>
+        <th>php</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>october</td>
+        <td>50%</td>
+        <td>60%</td>
+        <td>70%</td>
+        <td>80%</td>
+      </tr>
+      <tr>
+        <td>novamber</td>
+        <td>60%</td>
+        <td>65%</td>
+        <td>75%</td>
+        <td>85%</td>
+      </tr>
+      </tbody>
+      <tfoot>
+      <tr>
+        <td>decamber</td>
+        <td>70%</td>
+        <td>80%</td>
+        <td>90%</td>
+        <td>95%</td>
+      </tr>
+      </tfoot>
+    </table>
+    <br>
+    <table border="1" width="400" align="center" class="test">
+      <caption>language of computer</caption>
+      <tr>
+        <th colspan="2">programming</th>
+        <th colspan="3">web design</th>
+      </tr>
+      <tr>
+        <td>php</td>
+        <td>mysql</td>
+        <td>html</td>
+        <td>css</td>
+        <td>javascript</td>
+      </tr>
+    </table>
+    <br>
+    <table border="1" width="400" align="center">
+      <caption>email</caption>
+      <colgroup>
+        <col span="1" style="background:#ddd;">
+        <col span="2" style="background:#aaa;">
+      </colgroup>
+      <tr>
+        <th>name</th>
+        <th>email</th>
+      </tr>
+      <tr>
+        <td rowspan="2">kareem</td>
+        <td>k@n.n</td>
+      </tr>
+      <tr>
+       <td>k2@n.n</td>
+      </tr>
+    </table>
+    <DIV class="chapter1">
+      <h1>unorder list</h1>
+      <ul>
+        <li>html</li>
+        <li>css</li>
+        <li>html5</li>
+      </ul>
+      <h1>order list</h1>
+      <ol>
+        <li>html</li>
+        <li>css</li>
+        <li>html5</li>
+      </ol>
+      <h1>order list</h1>
+      <ol type="A">
+        <li>html</li>
+        <li>css</li>
+        <li>html5</li>
+      </ol>
+      <h1>order list</h1>
+      <ol reversed type="A">
+        <li>html</li>
+        <li>css</li>
+        <li>html5</li>
+      </ol>
+      <h1>order list</h1>
+      <ol reversed>
+        <li>html</li>
+        <li>css</li>
+        <li>html5</li>
+      </ol>
+      <a href="#kareem">kareem</a>
+      <h1>kareem</h1>
+      <dl>
+        <dt>html</dt>
+        <dd>it is useful language</dd>
+      </dl>
+      <p>this is <strong>bold</strong>text</p>
+      <p>this is <small>small</small>text</p>
+      <p>this is <em>italin</em>text</p>
+      <p id="kareem">kareem</p>
+      <h2>kareem</h2>
+      <p>kareem <br> kareem<br> <span>kareem</span></p>
+      <a href="http://www.google.com"target="_blank">google</a>
+      <br>
+      kareem
+      kareem
+      <!--<a href="http://www.google.com"target="_blank">google</a> -->
+      <!-- this is img to kareem -->
+      <br>
+      <img src="kareemahmed.gif" title="kareem" alt="kareem" width="200" height="200">
+      <br>
+      <input type="password" value="kareem">
+    </div>
+    <p>
+      this is my recearch
+     <blockquote>
+      this is a word for <mark>famouse</mark> person this is a word for famouse person person this is a word for famouse person
+      <del>this is a wor fo famouse person</del><ins> this is a word for famouse person</ins>person this is a word for famouse person
+      this is a word for famouse person this is a word for famouse person person this is a word for famouse person
+      in 21<sup>th</sup>october
+      H<sub>2</sub>o
+      <br>
+      <q>by me</q>
+     </blockquote> 
+      my recearch continued
+    </p>
+  </body>
+</html>
